@@ -8,6 +8,7 @@ document.getElementById('login-sumbit').addEventListener('click', function(){
 
     if (userEmail == 'bondhan@gmail.com' && userPassword == 'secret'){
         console.log('valid user');
+        window.location.href = 'banking.html';
     }
     
 })

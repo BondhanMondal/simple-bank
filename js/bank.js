@@ -6,6 +6,7 @@ document.getElementById('login-sumbit').addEventListener('click', function(){
     const passwordField = document.getElementById('user-password');
     const userPassword = passwordField.value;
 
+    //check email and password
     if (userEmail == 'bondhan@gmail.com' && userPassword == 'secret'){
         console.log('valid user');
         window.location.href = 'banking.html';
